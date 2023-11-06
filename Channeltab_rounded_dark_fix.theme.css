@@ -1,0 +1,119 @@
+/**
+ * @name Channel Tab Rounded Dark Fix
+ * @author Andres Studies
+ * @version 1.0
+ * @description Channel Tab Rounded Dark Fix. by Andres Studies
+ * @source https://github.com/AdaelynXIV/RoundedDark
+*/
+
+/* #  Plugin Fixes/Edits  # */
+/* Uncomment a plugin Import URL if you use a plugin that's listed here */
+
+@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+
+/* #  Plugin Fixes/Edits  # */
+/* Uncomment a plugin Import URL if you use a plugin that's listed here */
+
+/* Channel Tabs: */
+/*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
+
+/* Customizable Variables */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+:root {
+    --font-primary: 'Karla', sans-serif;
+    --custom-background: #576aed;
+
+    --blurple: #576aed;
+    --grey:#252629;
+    --lightgrey:#323438;
+    --darkgrey:#17181a;
+    --red:#eb4148;
+    --blurple-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(87,106,237,1) 70%);
+    --darkgrey-gradient: linear-gradient(0deg, rgba(37,38,41,1) 0%, rgba(23,24,26,1) 100%);
+
+    --radius: 16px;
+    --spacing: 11px;
+}
+
+/* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
+/* If you wish to remove the Folder Icons; or if it breaks one of your plug-ins, remove everything under here: */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
+
+.platform-win .typeWindows-2-g3UY {
+    top: 13px;
+    left: -11px;
+}
+#channelTabs-container{padding:7px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);}
+.wrapper-1_HaEi{margin-top:var(--spacing);}
+.app-2CXKsg{background:var(--blurple);}
+#channelTabs-container{
+    border-radius:var(--radius);
+    margin-bottom:calc(var(--spacing) - 2px);
+    padding:6px!important;
+}
+#channelTabs-settingsMenu{
+    margin-right:15px!important;
+    right: 110px!important;
+    top: 6px!important;
+}
+.platform-win .winButton-3UMjdg {
+    border-radius:var(--radius);
+    height:40px!important;
+}
+.platform-win .container-ZMc96U {padding-right:8px;}
+.channelTabs-tabContainer{max-width:85vw}
+
+.platform-win .typeWindows-2-g3UY {
+	top:0px!important;
+	height:25px!important;
+	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+}
+.platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
+    top: calc(var(--spacing) + 2px)!important;
+}   
+
+Google Chrome
+----------------------
+
+:root {
+	--accent-hue: 224;
+	--accent-saturation: 71%;
+	--accent-lightness: 61%;
+	--accent-text-color: #fff;
+	--accent-button-action: #fff; /*	-	*/
+
+	--avatar-radius: 50%; /*	-	*/
+
+	--message-radius: 19px;
+	--message-padding-top: 8px;
+	--message-padding-side: 12px; /*	-	*/
+
+	--media-radius: 19px; /*	-	*/
+
+	--card-radius: 8px;
+	--card-radius-big: 18px; /*	-	*/
+
+	--popout-radius: 8px;
+	--popout-radius-big: 18px;
+}
+
